@@ -1,0 +1,71 @@
+body{
+    background-color:#589ED9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#header .logo .fa-weibo{
+    font-size: 65px;
+    color: white;
+}
+
+#header h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+#input-container .containerfields{
+    background-color: white;
+    border-radius: 10px;
+}
+#input-container .containerfields input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    text-indent: 20px;
+    border-radius: 10px;
+}
+
+#input-container input[type='submit']{
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width:100%;
+    border: none;
+    background-color: #2186D4 ;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    padding: 14px 0px;
+    border-radius: 6px;
+}
+
+#input-container input[type='submit']:hover{
+    background-color: #0b6ab4;
+    cursor: pointer;
+}
+
+#footer p {
+    color: white;
+    font-size: 19px;
+}
+
+#footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
